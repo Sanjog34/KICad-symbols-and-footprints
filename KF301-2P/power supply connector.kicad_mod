@@ -1,0 +1,120 @@
+(footprint "power supply connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3302abf8-c993-4c80-9bf5-6c63e50e0ad2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "power supply connector"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8a80e50c-8b60-409f-a8e4-40e4a51fbd31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8eca39d8-0628-4cd6-b380-fce2c9521a3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bafd3f6-ab02-4945-8230-9e4ba22eb22c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b859f533-c4b1-431b-a4db-cb66598bd4ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.715 -5.842)
+		(end 5.842 5.969)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1434f73d-8027-4f5d-95ac-9b5a79ae4067")
+	)
+	(fp_rect
+		(start -6.223 -6.35)
+		(end 6.35 6.35)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "78626fa9-86dd-4b38-8b8a-cb865a194661")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e4db55a-26ac-4e05-b38c-04a86f1c6800")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 0)
+		(size 2.286 2.286)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a94bbed-3312-44bf-9f0d-8a91b34a7df6")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 2.286 2.286)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5348841-476d-478f-b393-7e48c379805b")
+	)
+)
