@@ -125,7 +125,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "PA11"
+	(fp_text user "PB11"
 		(at 10.414 10.904605 0)
 		(unlocked yes)
 		(layer "F.SilkS")
